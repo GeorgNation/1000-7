@@ -9,7 +9,7 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            for (int i = 1000, i > 2; i-=3)
+            for (int i = 1000; i > 2; i-=3)
             {
                 Console.WriteLine(i + " - 3 = " + (i - 3));
                 System.Threading.Thread.Sleep(500);
